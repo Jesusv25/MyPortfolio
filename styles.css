@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f0e1; /* Vibrant beige */
+  color: #333;
+}
+
+header {
+  background-color: #ad68e2;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #ff00f2;
+  margin-top: 2rem;
+}
+
+.about {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact {
+  background-color: #e9e1cf;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #f0e6d2;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
